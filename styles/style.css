@@ -73,6 +73,8 @@ nav{
 }
 
 /* -------------------------------------main section--------------------------------------------- */
+
+/* -----------------failure description---------------- */
 .failure-description{
     display: flex;
     margin-top: 150px;
@@ -103,5 +105,29 @@ nav{
 }
 i{
     color: #16D887;
+    font-size: 25px;
+}
+/* -----------------------------learning plan section-------------------------- */
+.learning-plans{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.skill-icon{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+.skill{
+    margin: 10px 45px;
+    text-align: center;
+}
+.skill-title{
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+.skill-comment{
+    color: #737272;
     font-size: 25px;
 }
