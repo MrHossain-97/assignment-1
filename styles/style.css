@@ -1,0 +1,107 @@
+/* -----------universal -------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------------------------------------------header section--------------------------------------- */
+.web-header{
+    background-image: url("../assets/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    text-align: right;
+}
+/* ---------------nav ------------------ */
+nav{
+    margin: 0px 25px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-weight: 1200px;
+    font-size: 80px;
+    margin-left: 30px;
+}
+.nav-items{
+    display: flex;
+    margin-right: 30px;
+}
+.nav-element{
+    font-size: 30px;
+    margin: 0px 25px;
+    list-style: none;
+}
+.text-special{
+    color: #F15B22;
+}
+
+/* ---------------header content------------- */
+.header-title{
+    text-align: right;
+    margin-right: 300px;
+    margin-left: 1000px;
+    margin-top: 130px;
+    margin-bottom: 25px;
+    font-weight: 500px;
+    font-size: 85px;
+}
+.header-title-description{
+    color: #444343;
+    text-align: right;
+    font-weight: 400px;
+    font-size: 20px;
+    margin-right: 300px;
+    margin-left: 1150px;
+    margin-bottom: 10px;
+}
+.quote-owner{
+    text-align: right;
+    margin-right: 300px;
+    font-weight: 400px;
+    font-size: 25px;
+}
+.btn-header{
+    background-color: #F15B22;
+    font-weight: 600px;
+    font-size: 30px;
+    margin-right: 300px;
+    margin-top: 30px;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* -------------------------------------main section--------------------------------------------- */
+.failure-description{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-size: cover;
+}
+.failure-section-title{
+    font-weight: 700px;
+    font-size: 50px;
+    margin-left: 200px;
+    margin-right: 500px;
+    margin-bottom: 25px;
+    padding-top: 200px;
+}
+.section-title-description{
+    color: #444343;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 500px;
+}
+.img{
+    margin-left: 300px;
+}
+.failure-history{
+    margin-left: 200px;
+    font-size: 25px;
+    color: #444343;
+}
+i{
+    color: #16D887;
+    font-size: 25px;
+}
