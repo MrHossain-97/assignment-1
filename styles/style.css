@@ -131,7 +131,7 @@ i{
     color: #737272;
     font-size: 25px;
 }
-/* ------------positive mindset section------- */
+/* ----------------------------positive mindset section------------------------------- */
 .positive-mindset{
     background-image: linear-gradient(to right, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../assets/watch.png");
     background-repeat: no-repeat;
@@ -140,6 +140,7 @@ i{
     text-align: left;
     margin-left: 20%;
     margin-bottom: 130px;
+    border-radius: 5px;
 }
 .section-title{
     font-weight: 700px;
@@ -159,4 +160,61 @@ i{
     border-radius: 5px;
     margin-top: 25px;
     margin-left: 65px;
+}
+/* ---------------------footer------------------------------------ */
+.footer{
+    background-color: #151414;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+}
+.about-future{
+    padding-left: 240px;
+    padding-top: 130px;
+}
+.subscription{
+    padding-top: 130px; 
+    padding-left: 260px;
+}
+.input-email{
+    width: 325px;
+    height: 65px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.btn-subscribe{
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 170px;
+    height: 65px;
+    color: #F15B22;
+    border: none;
+    border-radius: 5px;
+}
+.future-description{
+    color: #FFFFFF;
+    width: 490px;
+    height: 80px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+.email{
+    color: #FFFFFF;
+    margin-left: 70px;
+}
+.phone{
+    color: #FFFFFF;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.social-icon{
+    margin-left: 70px;
+    margin-top: 32px;
+    display: flex;
+}
+.icon{
+    margin: 0px 10px;
+    width: 47px;
+    height: 48px;
 }
